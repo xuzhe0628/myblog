@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>He&#39;s a good guy on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/about/</link>
+    <description>Recent content in He&#39;s a good guy on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 17 May 2017 16:01:37 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

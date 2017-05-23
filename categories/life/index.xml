@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/categories/life/</link>
+    <description>Recent content in Life on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 May 2017 21:28:19 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>台湾行计划</title>
+      <link>http://xuzhe91.com/post/taipei/</link>
+      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/taipei/</guid>
+      <description>台北旅游计划 简单计划一下六月份的台北之旅。 6月2号 入住酒店 午饭后可游览诚品书店、西门町、新光三越、忠孝东路、美丽华百乐园 晚上游览台北101大</description>
+    </item>
+    
+  </channel>
+</rss>

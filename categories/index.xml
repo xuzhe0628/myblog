@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/categories/</link>
+    <description>Recent content in Categories on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 17 May 2017 16:01:37 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://xuzhe91.com/categories/about/</link>
+      <pubDate>Wed, 17 May 2017 16:01:37 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>http://xuzhe91.com/categories/coding/</link>
+      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>http://xuzhe91.com/categories/data/</link>
+      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>http://xuzhe91.com/categories/life/</link>
+      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>http://xuzhe91.com/categories/personal/</link>
+      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://xuzhe91.com/categories/python/</link>
+      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

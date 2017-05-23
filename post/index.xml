@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/post/</link>
+    <description>Recent content in Posts on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 May 2017 21:28:19 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>台湾行计划</title>
+      <link>http://xuzhe91.com/post/taipei/</link>
+      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/taipei/</guid>
+      <description>台北旅游计划 简单计划一下六月份的台北之旅。 6月2号 入住酒店 午饭后可游览诚品书店、西门町、新光三越、忠孝东路、美丽华百乐园 晚上游览台北101大</description>
+    </item>
+    
+    <item>
+      <title>2017学习计划</title>
+      <link>http://xuzhe91.com/post/2017-learn/</link>
+      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/2017-learn/</guid>
+      <description>今年准备提升自己在计算机科学，统计学，机器学习和数据挖掘方面的知识，达到能够在工作中应用常见机器学习和数据挖掘算法的能力。所以今年我参加了一</description>
+    </item>
+    
+    <item>
+      <title>Python学习资料推荐</title>
+      <link>http://xuzhe91.com/post/python-books/</link>
+      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/python-books/</guid>
+      <description>总结一下我用过的Python书籍或者学习资料。排名不分先后。 廖雪峰的Python教程 很好的入门教程，讲解深入浅出。还有一个实际的项目可供练手</description>
+    </item>
+    
+  </channel>
+</rss>

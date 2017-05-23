@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/tags/</link>
+    <description>Recent content in Tags on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 17 May 2017 16:01:37 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://xuzhe91.com/tags/about/</link>
+      <pubDate>Wed, 17 May 2017 16:01:37 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>http://xuzhe91.com/tags/coding/</link>
+      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>http://xuzhe91.com/tags/data-science/</link>
+      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://xuzhe91.com/tags/machine-learning/</link>
+      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://xuzhe91.com/tags/python/</link>
+      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taiwan</title>
+      <link>http://xuzhe91.com/tags/taiwan/</link>
+      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/taiwan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://xuzhe91.com/tags/tutorial/</link>
+      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
