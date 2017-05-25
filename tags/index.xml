@@ -21,6 +21,24 @@
     </item>
     
     <item>
+      <title>Cheat Sheet</title>
+      <link>http://xuzhe91.com/tags/cheat-sheet/</link>
+      <pubDate>Thu, 25 May 2017 21:20:51 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/cheat-sheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chinese</title>
+      <link>http://xuzhe91.com/tags/chinese/</link>
+      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/chinese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Coding</title>
       <link>http://xuzhe91.com/tags/coding/</link>
       <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
@@ -30,11 +48,38 @@
     </item>
     
     <item>
+      <title>Crawler</title>
+      <link>http://xuzhe91.com/tags/crawler/</link>
+      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/crawler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>http://xuzhe91.com/tags/data/</link>
+      <pubDate>Thu, 25 May 2017 21:17:09 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Science</title>
       <link>http://xuzhe91.com/tags/data-science/</link>
-      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
+      <pubDate>Thu, 25 May 2017 21:21:14 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>http://xuzhe91.com/tags/english/</link>
+      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/english/</guid>
       <description></description>
     </item>
     
@@ -48,11 +93,83 @@
     </item>
     
     <item>
+      <title>Mongodb</title>
+      <link>http://xuzhe91.com/tags/mongodb/</link>
+      <pubDate>Thu, 25 May 2017 21:20:51 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No Sql</title>
+      <link>http://xuzhe91.com/tags/no-sql/</link>
+      <pubDate>Thu, 25 May 2017 21:20:51 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/no-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pandas</title>
+      <link>http://xuzhe91.com/tags/pandas/</link>
+      <pubDate>Thu, 25 May 2017 21:20:43 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post</title>
+      <link>http://xuzhe91.com/tags/post/</link>
+      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>http://xuzhe91.com/tags/python/</link>
-      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommendation</title>
+      <link>http://xuzhe91.com/tags/recommendation/</link>
+      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/recommendation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scikit Learn</title>
+      <link>http://xuzhe91.com/tags/scikit-learn/</link>
+      <pubDate>Thu, 25 May 2017 21:21:14 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/scikit-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spider</title>
+      <link>http://xuzhe91.com/tags/spider/</link>
+      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/spider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>http://xuzhe91.com/tags/statistics/</link>
+      <pubDate>Thu, 25 May 2017 21:17:09 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/statistics/</guid>
       <description></description>
     </item>
     
@@ -62,15 +179,6 @@
       <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/taiwan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>http://xuzhe91.com/tags/tutorial/</link>
-      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/tags/tutorial/</guid>
       <description></description>
     </item>
     

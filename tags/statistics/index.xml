@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/tags/statistics/</link>
+    <description>Recent content in Statistics on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 25 May 2017 21:17:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Central Tendency and Variability of Data</title>
+      <link>http://xuzhe91.com/post/statistic-fundamentals/</link>
+      <pubDate>Thu, 25 May 2017 21:17:09 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/statistic-fundamentals/</guid>
+      <description>Statistics provide several simple but powerful concepts that we can use to measure the central tendency and variability of datasets. I just want to write my understanding about these concepts.
+Measures of Central Tendency Mode
+Median
+Mean
+Variability Quartile
+Standard Deviation</description>
+    </item>
+    
+  </channel>
+</rss>

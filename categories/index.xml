@@ -39,11 +39,29 @@
     </item>
     
     <item>
+      <title>Data Science</title>
+      <link>http://xuzhe91.com/categories/data-science/</link>
+      <pubDate>Thu, 25 May 2017 21:21:14 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Life</title>
       <link>http://xuzhe91.com/categories/life/</link>
       <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
       
       <guid>http://xuzhe91.com/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No Sql</title>
+      <link>http://xuzhe91.com/categories/no-sql/</link>
+      <pubDate>Thu, 25 May 2017 21:20:51 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/no-sql/</guid>
       <description></description>
     </item>
     
@@ -59,9 +77,18 @@
     <item>
       <title>Python</title>
       <link>http://xuzhe91.com/categories/python/</link>
-      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>http://xuzhe91.com/categories/statistics/</link>
+      <pubDate>Thu, 25 May 2017 21:17:09 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/categories/statistics/</guid>
       <description></description>
     </item>
     

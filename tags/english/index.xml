@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Xu Zhe&#39;s Blog</title>
-    <link>http://xuzhe91.com/tags/python/</link>
-    <description>Recent content in Python on Xu Zhe&#39;s Blog</description>
+    <title>English on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/tags/english/</link>
+    <description>Recent content in English on Xu Zhe&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 25 May 2017 21:22:23 +0800</lastBuildDate>
     
-	<atom:link href="http://xuzhe91.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://xuzhe91.com/tags/english/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -39,12 +39,17 @@
     </item>
     
     <item>
-      <title>Python学习资料推荐</title>
-      <link>http://xuzhe91.com/post/python-books/</link>
-      <pubDate>Wed, 17 May 2017 16:12:17 +0800</pubDate>
+      <title>Central Tendency and Variability of Data</title>
+      <link>http://xuzhe91.com/post/statistic-fundamentals/</link>
+      <pubDate>Thu, 25 May 2017 21:17:09 +0800</pubDate>
       
-      <guid>http://xuzhe91.com/post/python-books/</guid>
-      <description>总结一下我用过的Python书籍或者学习资料。排名不分先后。 廖雪峰的Python教程 很好的入门教程，讲解深入浅出。还有一个实际的项目可供练手</description>
+      <guid>http://xuzhe91.com/post/statistic-fundamentals/</guid>
+      <description>Statistics provide several simple but powerful concepts that we can use to measure the central tendency and variability of datasets. I just want to write my understanding about these concepts.
+Measures of Central Tendency Mode
+Median
+Mean
+Variability Quartile
+Standard Deviation</description>
     </item>
     
   </channel>
