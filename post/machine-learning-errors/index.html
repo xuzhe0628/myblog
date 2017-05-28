@@ -1,0 +1,156 @@
+    <!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Xu Zhe&#39;s Blog">
+		<meta name="description" content="A blog about data science, coding and dog.">
+		<meta name="generator" content="Hugo 0.20.6" />
+		<title>Causes of Error in Machine Learning &middot; Xu Zhe&#39;s Blog</title>
+		<link rel="shortcut icon" href="http://xuzhe91.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://xuzhe91.com/css/style.css">
+		<link rel="stylesheet" href="http://xuzhe91.com/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="http://xuzhe91.com/css/font-awesome.min.css">
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://xuzhe91.com/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://xuzhe91.com/post'>Archive</a>
+	<a href='http://xuzhe91.com/tags'>Tags</a>
+	<a href='http://xuzhe91.com/about'>About</a>
+
+	
+
+	
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        Causes of Error in Machine Learning
+                    </h1>
+                    <h2 class="headline">
+                    May 28, 2017 20:04
+                    · 451 words
+                    · 3 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://xuzhe91.com/tags/machine-learning">machine-learning</a>
+                          
+                              <a href="http://xuzhe91.com/tags/error">error</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h4 id="bias">Bias</h4>
+
+<p>Bias due to a model being unable to represent the complexity of the underlying data. A high Bias model is said to <strong>underfit</strong> the data.</p>
+
+<p>Bias occurs when a model has enough data but is <strong>not complex enough to capture the underlying relationships</strong>. As a result, the model consistently and systematically misrepresents the data, leading to low accuracy in prediction. This is known as <em>underfitting</em>. Simply put, bias occurs when we have an inadequate model.</p>
+
+<p>####Variance####</p>
+
+<p><strong>Variance</strong> due to a model being overly sensitive to the limited data it has been trained on. A high Variance model is said to <strong>overfit</strong> the data.</p>
+
+<p>When training a model, we typically use a limited number of samples from a larger population. If we repeatedly train a model with randomly selected subsets of data, we would expect its predictons to be different based on the specific examples given to it. Here <em>variance</em> is a measure of how much the predictions vary for any given test sample.</p>
+
+<p>Some variance is normal, but too much variance indicates that the model is unable to generalize its predictions to the larger population. High sensitivity to the training set is also known as <em>overfitting</em>, and generally occurs when either the model is too complex or when we do not have enough data to support it.</p>
+
+<p>We can typically reduce the variability of a model&rsquo;s predictions and increase precision by training on more data. If more data is unavailable, we can also control variance by limiting our model&rsquo;s complexity.</p>
+
+<h4 id="learning-curve">Learning Curve</h4>
+
+<p>The Learning Curve functionality from <code>sklearn</code> can help us in this respect. It allows us to study the behavior of our model with respect to the number of data points being considered to understand if our model is performing well or not.</p>
+
+<h4 id="improving-the-validity-of-a-model">Improving the Validity of a Model</h4>
+
+<p>There is a trade-off in the value of simplicity or complexity of a model given a fixed set of data. If it is too simple, our model cannot learn about the data and misrepresents the data. However if our model is too complex, we need more data to learn the underlying relationship. Otherwise it is very common for a model to infer relationships that might not actually exist in the data.</p>
+
+<p>The key is to find the sweet spot that minimizes bias and variance by finding the right level of model complexity. Of course with more data any model can improve, and different models may be optimal.</p>
+
+<p>To learn more about bias and variance, we recommend <a href="http://scott.fortmann-roe.com/docs/BiasVariance.html">this essay</a> by Scott Fortmann-Roe.</p>
+
+<p>In addition to the subset of data chosen for training, what features you use from a given dataset can also greatly affect the bias and variance of your model.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'xuzhe91'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/xuzhe0628">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2017 <i class="fa fa-heart" aria-hidden="true"></i> Xu Zhe&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+        </section>
+
+        <script src="http://xuzhe91.com/js/jquery-2.2.4.min.js"></script>
+<script src="http://xuzhe91.com/js/main.js"></script>
+<script src="http://xuzhe91.com/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+    </body>
+</html>
