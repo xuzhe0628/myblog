@@ -43,7 +43,7 @@
                     </h1>
                     <h2 class="headline">
                     May 25, 2017 21:21
-                    · 225 words
+                    · 254 words
                     · 2 minutes read
                       <span class="tags">
                       
@@ -120,6 +120,12 @@ mean_absolute_error(y_test,clf.predict(X_test))
 mean_squared_error(y_test,clf.predict(X_test))
 </code></pre>
 
+<p>R2 Score</p>
+
+<pre><code class="language-python">from sklearn.metrics import r2_score
+score = r2_score(y_true, y_predict)
+</code></pre>
+
 <h1 id="error">Error</h1>
 
 <h4 id="learning-curve">Learning Curve</h4>
@@ -130,6 +136,14 @@ learning_curve(estimator, X, y, cv=cv, n_jobs=n_jobs, train_sizes=train_sizes)
 </code></pre>
 
 <p>Here, <code>estimator</code> is the model which we are using to make our predictions with, for example it could be defined as <code>GaussianNB()</code>, <code>X</code> and <code>y</code> are the features and label respectively, <code>cv</code> is the cross validation generator, for example <code>KFold()</code>, <code>n_jobs</code> is the parameter that decides if we want to run multiple operations in parallel and <code>train_sizes</code> is the number of training examples that will be considered to generate the curve.</p>
+
+<h1 id="grid-search">Grid Search</h1>
+
+<pre><code class="language-python">from sklearn.grid_search import GridSearchCV
+params = {}
+grid = GridSearchCV(clf, params, scoring=scoring_fnc, cv=cv_sets)
+grid = grid.fit(X, y)
+</code></pre>
 
                 </section>
             </article>
