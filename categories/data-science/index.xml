@@ -6,10 +6,19 @@
     <description>Recent content in Data Science on Xu Zhe&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 May 2017 21:21:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 May 2017 00:00:05 +0800</lastBuildDate>
     
 	<atom:link href="http://xuzhe91.com/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MLND-Machine Learning Algorithm Performance Evaluation Metrics</title>
+      <link>http://xuzhe91.com/post/mlnd-evaluation-metrics/</link>
+      <pubDate>Fri, 26 May 2017 00:00:05 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/mlnd-evaluation-metrics/</guid>
+      <description>Type Name Definition Comments     Classification Accuracy number of correctly identified instances / all instances Not ideal for skewed data. Not ideal for situations that you care one classification more than the rest. For example, if you create a model to predict cancer, you may care more about whether the people have cancer other than he does not.   Classification Precision True Positive / (True Positive + False Positive) Out of all the items labeled as positive, how many truly belong to the positive class.</description>
+    </item>
     
     <item>
       <title>Scikit-learn Cheat Sheet</title>
@@ -17,7 +26,9 @@
       <pubDate>Thu, 25 May 2017 21:21:14 +0800</pubDate>
       
       <guid>http://xuzhe91.com/post/scikit-learn-cheatsheet/</guid>
-      <description></description>
+      <description>Some variables used in the cheat sheet.
+clf # the model that we trained X_test # the test dataset y_test # the target of the test dataset  Preprocessing Dataset Split training dataset test_size decides the proportion of instances split from the training set as test data. random_state decides whether the data is randomly chosen.
+from sklearn import cross_validation X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.4, random_state=0)  Evaluation Metrics Confusion Matrix from sklearn.</description>
     </item>
     
     <item>

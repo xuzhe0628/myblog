@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/tags/x/</link>
+    <description>Recent content in X on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 26 May 2017 00:00:05 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/tags/x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MLND-Machine Learning Algorithm Performance Evaluation Metrics</title>
+      <link>http://xuzhe91.com/post/mlnd-evaluation-metrics/</link>
+      <pubDate>Fri, 26 May 2017 00:00:05 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/mlnd-evaluation-metrics/</guid>
+      <description>   Type Name Definition Shortcomings     Classification Accuracy number of correctly identified instances / all instances Not ideal for skewed data. Not ideal for situations that you care one classification more than the rest. For example, if you create a model to predict cancer, you may care more about whether the people have cancer other than he does not.   Classification Precision     Classification Recall     Classification Confusion Matrix     Classification F1 Score     Regression Mean Absolute Error     Regression Mean Squared Error      </description>
+    </item>
+    
+  </channel>
+</rss>

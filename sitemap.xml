@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xuzhe91.com/post/mlnd-evaluation-metrics/</loc>
+    <lastmod>2017-05-26T00:00:05+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xuzhe91.com/post/python-spider/</loc>
     <lastmod>2017-05-25T21:22:23+08:00</lastmod>
   </url>
@@ -108,13 +113,13 @@
   
   <url>
     <loc>http://xuzhe91.com/tags/data-science/</loc>
-    <lastmod>2017-05-25T21:21:14+08:00</lastmod>
+    <lastmod>2017-05-26T00:00:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://xuzhe91.com/categories/data-science/</loc>
-    <lastmod>2017-05-25T21:21:14+08:00</lastmod>
+    <lastmod>2017-05-26T00:00:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -161,6 +166,12 @@
   </url>
   
   <url>
+    <loc>http://xuzhe91.com/tags/performance-evaluation/</loc>
+    <lastmod>2017-05-26T00:00:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://xuzhe91.com/categories/personal/</loc>
     <lastmod>2017-05-23T21:28:19+08:00</lastmod>
     <priority>0</priority>
@@ -174,7 +185,7 @@
   
   <url>
     <loc>http://xuzhe91.com/post/</loc>
-    <lastmod>2017-05-25T21:22:23+08:00</lastmod>
+    <lastmod>2017-05-26T00:00:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -234,7 +245,7 @@
   
   <url>
     <loc>http://xuzhe91.com/</loc>
-    <lastmod>2017-05-25T21:22:23+08:00</lastmod>
+    <lastmod>2017-05-26T00:00:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   

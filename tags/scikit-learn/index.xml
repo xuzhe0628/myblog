@@ -17,7 +17,9 @@
       <pubDate>Thu, 25 May 2017 21:21:14 +0800</pubDate>
       
       <guid>http://xuzhe91.com/post/scikit-learn-cheatsheet/</guid>
-      <description></description>
+      <description>Some variables used in the cheat sheet.
+clf # the model that we trained X_test # the test dataset y_test # the target of the test dataset  Preprocessing Dataset Split training dataset test_size decides the proportion of instances split from the training set as test data. random_state decides whether the data is randomly chosen.
+from sklearn import cross_validation X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.4, random_state=0)  Evaluation Metrics Confusion Matrix from sklearn.</description>
     </item>
     
   </channel>

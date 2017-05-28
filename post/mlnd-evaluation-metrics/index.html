@@ -7,7 +7,7 @@
 		<meta name="author" content="Xu Zhe&#39;s Blog">
 		<meta name="description" content="A blog about data science, coding and dog.">
 		<meta name="generator" content="Hugo 0.20.6" />
-		<title>Scikit-learn Cheat Sheet &middot; Xu Zhe&#39;s Blog</title>
+		<title>MLND-Machine Learning Algorithm Performance Evaluation Metrics &middot; Xu Zhe&#39;s Blog</title>
 		<link rel="shortcut icon" href="http://xuzhe91.com/images/favicon.ico">
 		<link rel="stylesheet" href="http://xuzhe91.com/css/style.css">
 		<link rel="stylesheet" href="http://xuzhe91.com/css/highlight.css">
@@ -40,23 +40,19 @@
             <article class="post">
                 <header>
                     <h1>
-                        Scikit-learn Cheat Sheet
+                        MLND-Machine Learning Algorithm Performance Evaluation Metrics
                     </h1>
                     <h2 class="headline">
-                    May 25, 2017 21:21
-                    · 131 words
-                    · 1 minute read
+                    May 26, 2017 00:00
+                    · 261 words
+                    · 2 minutes read
                       <span class="tags">
                       
                       
                           
-                              <a href="http://xuzhe91.com/tags/scikit-learn">scikit-learn</a>
-                          
-                              <a href="http://xuzhe91.com/tags/python">python</a>
-                          
                               <a href="http://xuzhe91.com/tags/data-science">data-science</a>
                           
-                              <a href="http://xuzhe91.com/tags/english">english</a>
+                              <a href="http://xuzhe91.com/tags/performance-evaluation">performance-evaluation</a>
                           
                       
                       
@@ -65,61 +61,74 @@
                 </header>
                 
                 <section id="post-body">
-                    
+                    <table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Comments</th>
+</tr>
+</thead>
 
-<p>Some variables used in the cheat sheet.</p>
+<tbody>
+<tr>
+<td>Classification</td>
+<td>Accuracy</td>
+<td>number of correctly identified instances / all instances</td>
+<td>Not ideal for skewed data. Not ideal for situations that you care one classification more than the rest. For example, if you create a model to predict cancer, you may care more about whether the people have cancer other than he does not.</td>
+</tr>
 
-<pre><code class="language-python">clf # the model that we trained
-X_test # the test dataset
-y_test # the target of the test dataset
-</code></pre>
+<tr>
+<td>Classification</td>
+<td>Precision</td>
+<td>True Positive / (True Positive + False Positive)</td>
+<td>Out of all the items labeled as positive, how many truly belong to the positive class.</td>
+</tr>
 
-<h1 id="preprocessing-dataset">Preprocessing Dataset</h1>
+<tr>
+<td>Classification</td>
+<td>Recall</td>
+<td>True Positive / (True Positive + False Negative)</td>
+<td>Out of all the items that are truly positive, how many were correctly classified as positive. Or simply, how many positive items were &lsquo;recalled&rsquo; from the dataset.</td>
+</tr>
 
-<h4 id="split-training-dataset">Split training dataset</h4>
+<tr>
+<td>Classification</td>
+<td>Confusion Matrix</td>
+<td>A matrix of  TP, TN, FP and FN.</td>
+<td></td>
+</tr>
 
-<p><code>test_size</code> decides the proportion of instances split from the training set as test data. <code>random_state</code> decides whether the data is randomly chosen.</p>
+<tr>
+<td>Classification</td>
+<td>F1 Score</td>
+<td>F1 = 2 * (precision * recall) / (precision + recall)</td>
+<td>Weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst at 0.</td>
+</tr>
 
-<pre><code class="language-python">from sklearn import cross_validation
-X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.4, random_state=0)
-</code></pre>
+<tr>
+<td>Regression</td>
+<td>Mean Absolute Error</td>
+<td>The mean absolute error takes the total absolute error of each example and averages the error based on the number of data points.</td>
+<td></td>
+</tr>
 
-<h1 id="evaluation-metrics">Evaluation Metrics</h1>
+<tr>
+<td>Regression</td>
+<td>Mean Squared Error</td>
+<td>Takes the total squared absolute error of each example and averages the error based on the number of data points.</td>
+<td>Make large errors and small errors more differentiable and computing efficiently.</td>
+</tr>
 
-<h4 id="confusion-matrix">Confusion Matrix</h4>
-
-<pre><code class="language-python">from sklearn.metrics import confusion_matrix
-confusion_matrix(y_test, clf.predict(X_test))
-# scikit-learn using below confusion matrix
-# TN FP
-# FN TP
-</code></pre>
-
-<h4 id="recall-and-precision">Recall and Precision</h4>
-
-<pre><code class="language-python">from sklearn.metrics import recall_score as recall
-from sklearn.metrics import precision_score as precision
-recall(y_test,clf.predict(X_test))
-precision(y_test, clf.predict(X_test))
-</code></pre>
-
-<h4 id="f1-score">F1 Score</h4>
-
-<pre><code class="language-python">from sklearn.metrics import f1_score
-f1_score(y_test, clf1.predict(X_test))
-</code></pre>
-
-<h4 id="mean-absolute-error">Mean Absolute Error</h4>
-
-<pre><code class="language-python">from sklearn.metrics import mean_absolute_error
-mean_absolute_error(y_test,clf.predict(X_test))
-</code></pre>
-
-<h4 id="mean-squared-error">Mean Squared Error</h4>
-
-<pre><code class="language-python">from sklearn.metrics import mean_squared_error
-mean_squared_error(y_test,clf.predict(X_test))
-</code></pre>
+<tr>
+<td>Regression</td>
+<td>R2 score</td>
+<td>Computes the coefficient of determination of predictions for true values</td>
+<td>This is the default scoring method for regression learners in scikit-learn. Values from 0 to 1. The higher, the better.</td>
+</tr>
+</tbody>
+</table>
 
                 </section>
             </article>
