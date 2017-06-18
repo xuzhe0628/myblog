@@ -43,7 +43,7 @@
                     </h1>
                     <h2 class="headline">
                     May 25, 2017 21:21
-                    · 254 words
+                    · 269 words
                     · 2 minutes read
                       <span class="tags">
                       
@@ -73,7 +73,7 @@ X_test # the test dataset
 y_test # the target of the test dataset
 </code></pre>
 
-<h1 id="preprocessing-dataset">Preprocessing Dataset</h1>
+<h3 id="preprocessing-dataset">Preprocessing Dataset</h3>
 
 <h4 id="split-training-dataset">Split training dataset</h4>
 
@@ -83,7 +83,7 @@ y_test # the target of the test dataset
 X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.4, random_state=0)
 </code></pre>
 
-<h1 id="evaluation-metrics">Evaluation Metrics</h1>
+<h3 id="evaluation-metrics">Evaluation Metrics</h3>
 
 <h4 id="confusion-matrix">Confusion Matrix</h4>
 
@@ -126,7 +126,7 @@ mean_squared_error(y_test,clf.predict(X_test))
 score = r2_score(y_true, y_predict)
 </code></pre>
 
-<h1 id="error">Error</h1>
+<h3 id="error">Error</h3>
 
 <h4 id="learning-curve">Learning Curve</h4>
 
@@ -137,12 +137,22 @@ learning_curve(estimator, X, y, cv=cv, n_jobs=n_jobs, train_sizes=train_sizes)
 
 <p>Here, <code>estimator</code> is the model which we are using to make our predictions with, for example it could be defined as <code>GaussianNB()</code>, <code>X</code> and <code>y</code> are the features and label respectively, <code>cv</code> is the cross validation generator, for example <code>KFold()</code>, <code>n_jobs</code> is the parameter that decides if we want to run multiple operations in parallel and <code>train_sizes</code> is the number of training examples that will be considered to generate the curve.</p>
 
-<h1 id="grid-search">Grid Search</h1>
+<h3 id="grid-search">Grid Search</h3>
 
 <pre><code class="language-python">from sklearn.grid_search import GridSearchCV
 params = {}
 grid = GridSearchCV(clf, params, scoring=scoring_fnc, cv=cv_sets)
 grid = grid.fit(X, y)
+</code></pre>
+
+<h3 id="supervised-learning">Supervised Learning</h3>
+
+<h4 id="decision-tree">Decision Tree</h4>
+
+<pre><code class="language-python">from sklearn import tree
+clf = tree.DecisionTreeClassifier(min_samples_split=4)
+clf.fit(X, y)
+clf.score(Xtest, ytest)
 </code></pre>
 
                 </section>

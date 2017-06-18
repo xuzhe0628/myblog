@@ -21,18 +21,9 @@
     </item>
     
     <item>
-      <title>Cheat Sheet</title>
-      <link>http://xuzhe91.com/tags/cheat-sheet/</link>
-      <pubDate>Thu, 25 May 2017 21:20:51 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/tags/cheat-sheet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Chinese</title>
       <link>http://xuzhe91.com/tags/chinese/</link>
-      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
+      <pubDate>Wed, 17 May 2017 16:53:50 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/chinese/</guid>
       <description></description>
@@ -50,7 +41,7 @@
     <item>
       <title>Crawler</title>
       <link>http://xuzhe91.com/tags/crawler/</link>
-      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      <pubDate>Mon, 19 Jun 2017 00:40:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/crawler/</guid>
       <description></description>
@@ -68,7 +59,7 @@
     <item>
       <title>Data Science</title>
       <link>http://xuzhe91.com/tags/data-science/</link>
-      <pubDate>Fri, 26 May 2017 00:00:05 +0800</pubDate>
+      <pubDate>Fri, 02 Jun 2017 13:36:35 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/data-science/</guid>
       <description></description>
@@ -86,7 +77,7 @@
     <item>
       <title>English</title>
       <link>http://xuzhe91.com/tags/english/</link>
-      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      <pubDate>Mon, 19 Jun 2017 00:40:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/english/</guid>
       <description></description>
@@ -111,29 +102,11 @@
     </item>
     
     <item>
-      <title>Mongodb</title>
-      <link>http://xuzhe91.com/tags/mongodb/</link>
-      <pubDate>Thu, 25 May 2017 21:20:51 +0800</pubDate>
+      <title>Math</title>
+      <link>http://xuzhe91.com/tags/math/</link>
+      <pubDate>Fri, 02 Jun 2017 13:36:35 +0800</pubDate>
       
-      <guid>http://xuzhe91.com/tags/mongodb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>No Sql</title>
-      <link>http://xuzhe91.com/tags/no-sql/</link>
-      <pubDate>Thu, 25 May 2017 21:20:51 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/tags/no-sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pandas</title>
-      <link>http://xuzhe91.com/tags/pandas/</link>
-      <pubDate>Thu, 25 May 2017 21:20:43 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/tags/pandas/</guid>
+      <guid>http://xuzhe91.com/tags/math/</guid>
       <description></description>
     </item>
     
@@ -147,18 +120,9 @@
     </item>
     
     <item>
-      <title>Post</title>
-      <link>http://xuzhe91.com/tags/post/</link>
-      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/tags/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Python</title>
       <link>http://xuzhe91.com/tags/python/</link>
-      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      <pubDate>Mon, 19 Jun 2017 00:40:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/python/</guid>
       <description></description>
@@ -183,9 +147,18 @@
     </item>
     
     <item>
+      <title>Scraper</title>
+      <link>http://xuzhe91.com/tags/scraper/</link>
+      <pubDate>Mon, 19 Jun 2017 00:40:23 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/tags/scraper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Spider</title>
       <link>http://xuzhe91.com/tags/spider/</link>
-      <pubDate>Thu, 25 May 2017 21:22:23 +0800</pubDate>
+      <pubDate>Mon, 19 Jun 2017 00:40:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/spider/</guid>
       <description></description>
@@ -197,15 +170,6 @@
       <pubDate>Thu, 25 May 2017 21:17:09 +0800</pubDate>
       
       <guid>http://xuzhe91.com/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Taiwan</title>
-      <link>http://xuzhe91.com/tags/taiwan/</link>
-      <pubDate>Tue, 23 May 2017 21:28:19 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/tags/taiwan/</guid>
       <description></description>
     </item>
     
