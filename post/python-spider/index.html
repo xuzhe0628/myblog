@@ -43,8 +43,8 @@
                     </h1>
                     <h2 class="headline">
                     Jun 19, 2017 00:40
-                    · 1682 words
-                    · 8 minutes read
+                    · 2038 words
+                    · 10 minutes read
                       <span class="tags">
                       
                       
@@ -393,6 +393,118 @@
 <p>### 6. Using API ###</p>
 
 <p>Many services, such as Google Map, OneDrive and Box, has provided official API for user to automatically some routine tasks. With API, we don&rsquo;t need to build the post or get request by ourself.</p>
+
+<p>#### Box API ####</p>
+
+<p><a href="https://pypi.python.org/pypi/boxsdk/1.5.3#authorization">boxsdk</a> is the official Box Python SDK package. It also uses OAuth2 for authentication. You need to use below command to install it.</p>
+
+<p><code>pip install boxsdk</code></p>
+
+<p>Below are some links that you may need.</p>
+
+<p><a href="http://box-python-sdk.readthedocs.io/en/latest/">Documentation</a></p>
+
+<p><a href="https://github.com/box/box-python-sdk">Source Code</a></p>
+
+<p><a href="https://developer.box.com/docs">Box Developer Docs</a></p>
+
+<p>Before using box API, you need to create a box application following below <a href="https://developer.box.com/docs/getting-started-box-integration">guide</a>. You will create and get <code>clientId</code>, <code>clientSecret</code> and <code>redirectUri</code> that you need for the demo.</p>
+
+<p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/BOXAPP.PNG" alt="" /></p>
+
+<p>Below is some demo codes for create a test folder, upload an image to the newly created folder and get its shared link.</p>
+
+<pre><code class="language-python">  import json
+  import requests
+  import webbrowser
+
+  from boxsdk import OAuth2
+  from boxsdk import Client
+
+  # Configuration
+  clientId = '' # input your client id
+  clientSecret = '' # input your client pass
+  tokenUrl = 'https://api.box.com/oauth2/token'
+  authUrl = 'https://account.box.com/api/oauth2/authorize'
+  redirectUri = 'http://localhost'
+  state = '' # input your state
+  getCodeType = 'code'
+  getTokenType = 'authorization_code'
+  refreshTokenType = 'refresh_token'
+
+
+  # First leg authetication, get the code for getting access token
+  def get_code(url, type, id, redirect, state):
+      authUrl = (url + '?response_type='
+                  + type + '&amp;client_id=' + id + '&amp;state='
+                  + state + '&amp;redirect_uri=' + redirect)
+      webbrowser.open(authUrl, new=0)
+
+      # Paste the code returned by box in browser address line after you grant access
+      authCode = input(&quot;Please enter the auth code got form browser: &quot;)
+      return authCode
+
+  # Get access token
+  def get_access_refresh_token(url, type, code, id, secret, uri):
+      resp = requests.post(
+          url,
+          data={'grant_type': type,
+              'code': code,
+              'client_id': id,
+              'client_secret': secret,
+              'redirect_uri:': uri,
+          }
+      )
+      
+      tokenData = json.loads(resp.text)
+      print(tokenData)
+      accessToken = tokenData['access_token']
+      refreshToken = tokenData['refresh_token']
+      return accessToken, refreshToken
+
+  # Using refresh token to get new access token if necessary
+
+  def refresh_token(url, type, id, secret, refreshToken):
+      resp = requests.post(
+          url,
+          data={'grant_type': type,
+              'client_id': id,
+              'client_secret': secret,
+              'refresh_token': refreshToken}
+      )
+      tokenData = json.loads(resp.text)
+      accessToken = tokenData['access_token']
+      refreshToken = tokenData['fresh_token']
+      return accessToken, refreshToken
+      
+      
+  if __name__ == '__main__':
+      authCode = get_code(authUrl, getCodeType, clientId, redirectUri, state)
+      accessToken, refreshToken = get_access_refresh_token(
+          tokenUrl, getTokenType, authCode, clientId, clientSecret, redirectUri
+      )
+      # print('access_token: ' + accessToken + '\nrefresh_token: ' + refreshToken)
+      
+      oauth = OAuth2(
+          client_id=clientId,
+          client_secret=clientSecret,
+          access_token=accessToken,
+      )
+      client = Client(oauth)
+      root_folder = client.folder(folder_id='0')
+      shared_folder = root_folder.create_subfolder('api_test_folder')
+      uploaded_file = shared_folder.upload(r'C:\Users\daniel.xu\Desktop\tmp\IMG_0049.png')
+      shared_link = shared_folder.get_shared_link()
+      print(shared_link)
+</code></pre>
+
+<p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/BOXAUTH.PNG" alt="" /></p>
+
+<p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/BOXTOKEN.PNG" alt="" /></p>
+
+<p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/BOXUPLOAD.PNG" alt="" /></p>
+
+<p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/BOXRESULT.PNG" alt="" /></p>
 
 <p>#### OneDrive API ####</p>
 
