@@ -17,9 +17,8 @@
       <pubDate>Mon, 19 Jun 2017 00:40:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/post/python-spider/</guid>
-      <description>Python Web Crawler and Scraper Fundamentals Github: https://github.com/xuzhe0628/python-spider-scraper-fundamentals
- ## Content  Web crawler and scraper HTTP Request: GET and POST Capture and parse web via urllib Powerful requests: HTTP for Humans Web scraper framework: scrapy Using API   ## Prerequisite ##
- Python 3.5 or later version MongoDB (needed if you want to run the Scrapy example)  ### 1. Web crawler and scraper http://stackoverflow.com/questions/3207418/crawler-vs-scraper
+      <description>Github: https://github.com/xuzhe0628/python-spider-scraper-fundamentals
+Content  Web crawler and scraper HTTP Request: GET and POST Capture and parse web via urllib Powerful requests: HTTP for Humans Web scraper framework: scrapy Using API  Prerequisite  Python 3.5 or later version MongoDB (needed if you want to run the Scrapy example)  1. Web crawler and scraper http://stackoverflow.com/questions/3207418/crawler-vs-scraper
 A crawler get web pages from a starting page based one some rules or conditions.</description>
     </item>
     
@@ -31,7 +30,7 @@ A crawler get web pages from a starting page based one some rules or conditions.
       <guid>http://xuzhe91.com/post/math-for-data-science/</guid>
       <description>Math for Data Science Review This article is based on Coursera course Math for Data Science provided by Duke University. To better understanding the algorithms in data mining, machine learning and deep learning, I write this summary to go through the basic math that will be used.
 Sets A set means a collection of some elements. For example, a basket of vegetables.
-Cardinality is the size of a set. It means the number of elements in the set.</description>
+** Cardinality ** is the size of a set.</description>
     </item>
     
     <item>

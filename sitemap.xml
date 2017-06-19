@@ -52,13 +52,13 @@
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/categories/about/</loc>
+    <loc>http://xuzhe91.com/tags/about/</loc>
     <lastmod>2017-05-17T16:01:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/tags/about/</loc>
+    <loc>http://xuzhe91.com/categories/about/</loc>
     <lastmod>2017-05-17T16:01:37+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -76,13 +76,13 @@
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/categories/coding/</loc>
+    <loc>http://xuzhe91.com/tags/coding/</loc>
     <lastmod>2017-05-17T16:53:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/tags/coding/</loc>
+    <loc>http://xuzhe91.com/categories/coding/</loc>
     <lastmod>2017-05-17T16:53:50+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -94,25 +94,25 @@
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/categories/data/</loc>
-    <lastmod>2017-05-17T16:53:50+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://xuzhe91.com/tags/data/</loc>
     <lastmod>2017-05-25T21:17:09+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/categories/data-science/</loc>
-    <lastmod>2017-06-02T13:36:35+08:00</lastmod>
+    <loc>http://xuzhe91.com/categories/data/</loc>
+    <lastmod>2017-05-17T16:53:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://xuzhe91.com/tags/data-science/</loc>
+    <lastmod>2017-06-02T13:36:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://xuzhe91.com/categories/data-science/</loc>
     <lastmod>2017-06-02T13:36:35+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -136,13 +136,13 @@
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/categories/machine-learning/</loc>
+    <loc>http://xuzhe91.com/tags/machine-learning/</loc>
     <lastmod>2017-05-28T20:30:40+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/tags/machine-learning/</loc>
+    <loc>http://xuzhe91.com/categories/machine-learning/</loc>
     <lastmod>2017-05-28T20:30:40+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -166,13 +166,13 @@
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/categories/python/</loc>
+    <loc>http://xuzhe91.com/tags/python/</loc>
     <lastmod>2017-06-19T00:40:23+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/tags/python/</loc>
+    <loc>http://xuzhe91.com/categories/python/</loc>
     <lastmod>2017-06-19T00:40:23+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -202,13 +202,13 @@
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/categories/statistics/</loc>
+    <loc>http://xuzhe91.com/tags/statistics/</loc>
     <lastmod>2017-05-25T21:17:09+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://xuzhe91.com/tags/statistics/</loc>
+    <loc>http://xuzhe91.com/categories/statistics/</loc>
     <lastmod>2017-05-25T21:17:09+08:00</lastmod>
     <priority>0</priority>
   </url>

@@ -19,7 +19,7 @@
       <guid>http://xuzhe91.com/post/math-for-data-science/</guid>
       <description>Math for Data Science Review This article is based on Coursera course Math for Data Science provided by Duke University. To better understanding the algorithms in data mining, machine learning and deep learning, I write this summary to go through the basic math that will be used.
 Sets A set means a collection of some elements. For example, a basket of vegetables.
-Cardinality is the size of a set. It means the number of elements in the set.</description>
+** Cardinality ** is the size of a set.</description>
     </item>
     
     <item>

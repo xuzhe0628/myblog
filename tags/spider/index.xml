@@ -17,9 +17,8 @@
       <pubDate>Mon, 19 Jun 2017 00:40:23 +0800</pubDate>
       
       <guid>http://xuzhe91.com/post/python-spider/</guid>
-      <description>Python Web Crawler and Scraper Fundamentals Github: https://github.com/xuzhe0628/python-spider-scraper-fundamentals
- ## Content  Web crawler and scraper HTTP Request: GET and POST Capture and parse web via urllib Powerful requests: HTTP for Humans Web scraper framework: scrapy Using API   ## Prerequisite ##
- Python 3.5 or later version MongoDB (needed if you want to run the Scrapy example)  ### 1. Web crawler and scraper http://stackoverflow.com/questions/3207418/crawler-vs-scraper
+      <description>Github: https://github.com/xuzhe0628/python-spider-scraper-fundamentals
+Content  Web crawler and scraper HTTP Request: GET and POST Capture and parse web via urllib Powerful requests: HTTP for Humans Web scraper framework: scrapy Using API  Prerequisite  Python 3.5 or later version MongoDB (needed if you want to run the Scrapy example)  1. Web crawler and scraper http://stackoverflow.com/questions/3207418/crawler-vs-scraper
 A crawler get web pages from a starting page based one some rules or conditions.</description>
     </item>
     

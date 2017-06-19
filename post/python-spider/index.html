@@ -43,7 +43,7 @@
                     </h1>
                     <h2 class="headline">
                     Jun 19, 2017 00:40
-                    · 2038 words
+                    · 2019 words
                     · 10 minutes read
                       <span class="tags">
                       
@@ -68,12 +68,9 @@
                 <section id="post-body">
                     
 
-<h1 id="python-web-crawler-and-scraper-fundamentals">Python Web Crawler and Scraper Fundamentals</h1>
-
 <p><strong>Github</strong>: <a href="https://github.com/xuzhe0628/python-spider-scraper-fundamentals">https://github.com/xuzhe0628/python-spider-scraper-fundamentals</a></p>
 
-<ul>
-<li>## Content
+<h2 id="content">Content</h2>
 
 <ol>
 <li>Web crawler and scraper</li>
@@ -82,25 +79,26 @@
 <li>Powerful requests: HTTP for Humans</li>
 <li>Web scraper framework: scrapy</li>
 <li>Using API</li>
-</ol></li>
-</ul>
+</ol>
 
-<p>## Prerequisite ##</p>
+<h2 id="prerequisite">Prerequisite</h2>
 
 <ul>
 <li>Python 3.5 or later version</li>
 <li>MongoDB (needed if you want to run the Scrapy example)</li>
 </ul>
 
-<p>### 1. Web crawler and scraper
-  <a href="http://stackoverflow.com/questions/3207418/crawler-vs-scraper">http://stackoverflow.com/questions/3207418/crawler-vs-scraper</a></p>
+<h3 id="1-web-crawler-and-scraper">1. Web crawler and scraper</h3>
+
+<p><a href="http://stackoverflow.com/questions/3207418/crawler-vs-scraper">http://stackoverflow.com/questions/3207418/crawler-vs-scraper</a></p>
 
 <p>A crawler get web pages from a starting page based one some rules or conditions. It downloads whatever it found.</p>
 
 <p>A scraper extracts data from pages that we downloaded by a crawler, so that we can store them into databases or other data management systems.</p>
 
-<p>### 2. HTTP Request: GET and POST
-  <a href="https://www.w3schools.com/tags/ref_httpmethods.asp">https://www.w3schools.com/tags/ref_httpmethods.asp</a></p>
+<h3 id="2-http-request-get-and-post">2. HTTP Request: GET and POST</h3>
+
+<p><a href="https://www.w3schools.com/tags/ref_httpmethods.asp">https://www.w3schools.com/tags/ref_httpmethods.asp</a></p>
 
 <p>The Hypertext Transfer Protocol (HTTP) is designed to enable communications between clients and servers. HTTP works as a request-response protocol between a client and server. A web browser may be the client, and an application on a computer that hosts a web site may be the server.</p>
 
@@ -111,40 +109,42 @@
 <li>POST - Submits data to be processed to a specified resource</li>
 </ul>
 
-<p>#### 2.1 The GET Method
-  Note that the query string (name/value pairs) is sent in the URL of a GET request:</p>
+<h4 id="2-1-the-get-method">2.1 The GET Method</h4>
+
+<p>Note that the query string (name/value pairs) is sent in the URL of a GET request:</p>
 
 <p><code>/test/demo_form.php?name1=value1&amp;name2=value2</code></p>
 
 <p>Some other notes on GET requests:
-  * GET requests can be cached.
-  * GET requests remain in the browser history.
-  * GET requests can be bookmarked.
-  * GET requests should never be used when dealing with sensitive data.
-  * GET requests have length restrictions. The limit is dependent on both the server and the client used (and if applicable, also the proxy the server or the client is using).
-  * GET requests should be used only to retrieve data.</p>
+* GET requests can be cached.
+* GET requests remain in the browser history.
+* GET requests can be bookmarked.
+* GET requests should never be used when dealing with sensitive data.
+* GET requests have length restrictions. The limit is dependent on both the server and the client used (and if applicable, also the proxy the server or the client is using).
+* GET requests should be used only to retrieve data.</p>
 
-<p><strong>Example</strong></p>
+<h5 id="example">Example</h5>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/GET.png" alt="" /></p>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/GETRESULT.PNG" alt="" /></p>
 
-<p>#### 2.2 The POST Method
-  Note that the query string (name/value pairs) is sent in the HTTP message body of a POST request:</p>
+<h4 id="2-2-the-post-method">2.2 The POST Method</h4>
 
-<pre><code>  POST /test/demo_form.php HTTP/1.1
-  Host: w3schools.com
-  name1=value1&amp;name2=value2
+<p>Note that the query string (name/value pairs) is sent in the HTTP message body of a POST request:</p>
+
+<pre><code>POST /test/demo_form.php HTTP/1.1
+Host: w3schools.com
+name1=value1&amp;name2=value2
 </code></pre>
 
 <p>Some other notes on POST requests:
-  * POST requests are never cached.
-  * POST requests do not remain in the browser history.
-  * POST requests cannot be bookmarked.
-  * POST requests have no restrictions on data length.</p>
+* POST requests are never cached.
+* POST requests do not remain in the browser history.
+* POST requests cannot be bookmarked.
+* POST requests have no restrictions on data length.</p>
 
-<p><strong>Example</strong></p>
+<h5 id="example-1">Example</h5>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/LOGIN.PNG" alt="" /></p>
 
@@ -152,48 +152,46 @@
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/POST.png" alt="" /></p>
 
-<p>### 3. Capture and parse web page using urllib</p>
+<h3 id="3-capture-and-parse-web-page-using-urllib">3. Capture and parse web page using urllib</h3>
 
 <p>Python has a standard package urllib for handling URLs. We can use it to write basic web crawler and scraper.</p>
 
-<ul>
-<li><a href="https://docs.python.org/3.5/library/urllib.request.html#module-urllib.request"><code>urllib.request</code></a> for opening and reading URLs</li>
-<li><a href="https://docs.python.org/3.5/library/urllib.error.html#module-urllib.error"><code>urllib.error</code></a> containing the exceptions raised by <a href="https://docs.python.org/3.5/library/urllib.request.html#module-urllib.request"><code>urllib.request</code></a></li>
-<li><a href="https://docs.python.org/3.5/library/urllib.parse.html#module-urllib.parse"><code>urllib.parse</code></a> for parsing URLs</li>
-<li><a href="https://docs.python.org/3.5/library/urllib.robotparser.html#module-urllib.robotparser"><code>urllib.robotparser</code></a> for parsing <code>robots.txt</code> files</li>
-</ul>
+<p><a href="https://docs.python.org/3.5/library/urllib.request.html#module-urllib.request"><code>urllib.request</code></a> for opening and reading URLs
+<a href="https://docs.python.org/3.5/library/urllib.error.html#module-urllib.error"><code>urllib.error</code></a> containing the exceptions raised by <a href="https://docs.python.org/3.5/library/urllib.request.html#module-urllib.request"><code>urllib.request</code></a>
+<a href="https://docs.python.org/3.5/library/urllib.parse.html#module-urllib.parse"><code>urllib.parse</code></a> for parsing URLs
+<a href="https://docs.python.org/3.5/library/urllib.robotparser.html#module-urllib.robotparser"><code>urllib.robotparser</code></a> for parsing <code>robots.txt</code> files</p>
 
-<pre><code class="language-python">  import urllib.request
-  import re
+<pre><code class="language-python">import urllib.request
+import re
 
-  # Regex to match the repo name
-  REPO_REGEX = re.compile(b'.*/(.*/python).*', re.IGNORECASE, )
+# Regex to match the repo name
+REPO_REGEX = re.compile(b'.*/(.*/python).*', re.IGNORECASE, )
 
-  pythonRepo = urllib.request.urlopen(
-      'https://github.com/search?utf8=%E2%9C%93&amp;q=python&amp;type=')
-  # The url we provided is for sending the query keyword to the web server via GET method.
+pythonRepo = urllib.request.urlopen(
+    'https://github.com/search?utf8=%E2%9C%93&amp;q=python&amp;type=')
+# The url we provided is for sending the query keyword to the web server via GET method.
 
-  # Save the response as a html file
-  # &quot;wb&quot; means the mode opening the file. &quot;w&quot; means open the file in write mode.
-  # &quot;b&quot; means open the file in binary mode.
+# Save the response as a html file
+# &quot;wb&quot; means the mode opening the file. &quot;w&quot; means open the file in write mode.
+# &quot;b&quot; means open the file in binary mode.
 
-  with open('ResultPage.html', 'wb') as resultPage:
-      resultPage.write(pythonRepo.read())
+with open('ResultPage.html', 'wb') as resultPage:
+    resultPage.write(pythonRepo.read())
 
-  # Request the query again and find and print the repo name.
-  pythonRepo = urllib.request.urlopen(
-      'https://github.com/search?utf8=%E2%9C%93&amp;q=python&amp;type=')
+# Request the query again and find and print the repo name.
+pythonRepo = urllib.request.urlopen(
+    'https://github.com/search?utf8=%E2%9C%93&amp;q=python&amp;type=')
 
-  for line in pythonRepo:
-      if REPO_REGEX.match(line):
-          print(REPO_REGEX.match(line).group(1))
+for line in pythonRepo:
+    if REPO_REGEX.match(line):
+        print(REPO_REGEX.match(line).group(1))
 </code></pre>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/URLLIBRESULT.PNG" alt="" /></p>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/URLLIBWEB.PNG" alt="" /></p>
 
-<p>### 4. Powerful Requests: HTTP for Humans</p>
+<h3 id="4-powerful-requests-http-for-humans">4. Powerful Requests: HTTP for Humans</h3>
 
 <p><a href="http://docs.python-requests.org/en/master/">Requests</a> is an elegant and simple HTTP library for Python, built for human beings. It is a powerful, safe and user-friendly library for handling HTTP requests and responses. Let&rsquo;s use it to submitting a post request and parse the response.</p>
 
@@ -201,54 +199,55 @@
 
 <p><code>pip install requests</code></p>
 
-<pre><code class="language-python">  import requests
-  from bs4 import BeautifulSoup # standard library for parsing html page
+<pre><code class="language-python">import requests
+from bs4 import BeautifulSoup # standard library for parsing html page
 
-  # header for simulating the browser
-  headers = {
-      &quot;User-Agent&quot;: &quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0&quot;,
-      &quot;Accept&quot;: &quot;application/json, text/javascript, */*; q=0.01&quot;,
-      &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;,
-      &quot;X-Requested-With&quot;: &quot;XMLHttpRequest&quot;,
-  }
+# header for simulating the browser
+headers = {
+    &quot;User-Agent&quot;: &quot;Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) 		  Gecko/20100101 Firefox/52.0&quot;,
+    &quot;Accept&quot;: &quot;application/json, text/javascript, */*; q=0.01&quot;,
+    &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded; charset=UTF-8&quot;,
+    &quot;X-Requested-With&quot;: &quot;XMLHttpRequest&quot;,
+}
 
-  # creare a session to hold all browser information
-  gitSession = requests.Session()
+# creare a session to hold all browser information
+gitSession = requests.Session()
 
-  # get the auth token from github login page
-  soup = BeautifulSoup(gitSession.get('https://github.com/login', 
-      headers=headers).text,
-      'html.parser')
-  # find the element containing the auth_token by selector
-  auth_token = soup.find(&quot;input&quot;, {&quot;name&quot;: &quot;authenticity_token&quot;}).attrs['value']
-  print('auth_token: {}'.format(auth_token))
+# get the auth token from github login page
+soup = BeautifulSoup(gitSession.get('https://github.com/login', 
+    headers=headers).text,
+    'html.parser')
+# find the element containing the auth_token by selector
+auth_token = soup.find(&quot;input&quot;,     
+    {&quot;name&quot;:&quot;authenticity_token&quot;}).attrs['value']
+print('auth_token: {}'.format(auth_token))
 
-  # prepare the login data using the auth token we got
-  payload = {
-      &quot;commit&quot;: &quot;Sign in&quot;,
-      &quot;authenticity_token&quot;: auth_token,
-      &quot;login&quot;: &quot;your login&quot;, # fill your username
-      &quot;password&quot;: &quot;your password&quot; # fill your password
-  }
+# prepare the login data using the auth token we got
+payload = {
+    &quot;commit&quot;: &quot;Sign in&quot;,
+    &quot;authenticity_token&quot;: auth_token,
+    &quot;login&quot;: &quot;your login&quot;, # fill your username
+    &quot;password&quot;: &quot;your password&quot; # fill your password
+}
 
-  # send a post request to session page to login
-  # we will need the session as Github request enable cookie and the session can
-  # help us to keep the cookie for different requests
-  login = gitSession.post('https://github.com/session', 
-      data=payload)
+# send a post request to session page to login
+# we will need the session as Github request enable cookie and the session can
+# help us to keep the cookie for different requests
+login = gitSession.post('https://github.com/session', 
+    data=payload)
 
-  # find my repo names by css selector
-  soup = BeautifulSoup(login.text, 'html.parser')
-  repos = soup.find_all(&quot;span&quot;, class_=&quot;repo&quot;)
-  for repo in repos:
-      print(repo.text)
+# find my repo names by css selector
+soup = BeautifulSoup(login.text, 'html.parser')
+repos = soup.find_all(&quot;span&quot;, class_=&quot;repo&quot;)
+for repo in repos:
+    print(repo.text)
 </code></pre>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/LOGINRESULT.PNG" alt="" /></p>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/GITREPO.PNG" alt="" /></p>
 
-<p>### 5. Web scraper framework: Scrapy</p>
+<h3 id="5-web-scraper-framework-scrapy">5. Web scraper framework: Scrapy</h3>
 
 <p><a href="https://docs.scrapy.org/en/latest/intro/overview.html">Scrapy</a> is an application framework for crawling web sites and extracting structured data which can be used for a wide range of useful applications, like data mining, information processing or historical archival.</p>
 
@@ -272,115 +271,115 @@
 
 <p>This will create a <code>tutorial</code> directory with the following contents:</p>
 
-<pre><code>  tutorial/
-      scrapy.cfg            # deploy configuration file
+<pre><code>tutorial/
+    scrapy.cfg            # deploy configuration file
 
-      tutorial/             # project's Python module, you'll import your code from here
-          __init__.py
+    tutorial/             # project's Python module, you'll import your code from here
+        __init__.py
 
-          items.py          # project items definition file
+        items.py          # project items definition file
 
-          pipelines.py      # project pipelines file
+        pipelines.py      # project pipelines file
 
-          settings.py       # project settings file
+        settings.py       # project settings file
 
-          spiders/          # a directory where you'll later put your spiders
-              __init__.py
+        spiders/          # a directory where you'll later put your spiders
+            __init__.py
 </code></pre>
 
 <p>Create a python file called <code>Movie.py</code> under <code>tutorial/spiders</code> folder.</p>
 
-<p><strong>Item</strong></p>
+<h4 id="5-1-item">5.1 Item</h4>
 
 <p>Item can help you to modeling the data you extracted from the web pages. It is very simple to define an item. As we are crawling movie data, we create a movie item by adding below codes to <code>items.py</code> file. It is very simple. You only need to define the field in a class inheriting <code>scrapy.Item</code> class. The fields are instance of <code>scrapy.Field</code> class.</p>
 
-<pre><code class="language-python">  import scrapy
+<pre><code class="language-python">import scrapy
 
-  class MovieItem(scrapy.Item):
-      _id = scrapy.Field()
-      movie = scrapy.Field()
-      rating = scrapy.Field()
-      release_date = scrapy.Field()
-      genres = scrapy.Field()
-      overview = scrapy.Field()
+class MovieItem(scrapy.Item):
+    _id = scrapy.Field()
+    movie = scrapy.Field()
+    rating = scrapy.Field()
+    release_date = scrapy.Field()
+    genres = scrapy.Field()
+    overview = scrapy.Field()
 </code></pre>
 
-<p><strong>Spider</strong></p>
+<h4 id="5-2-spider">5.2 Spider</h4>
 
 <p>Spider is the core script for finding URL for next pages and scraping data. As we defined an item, we will populate the item using the data we got. Create the spider named <code>Movie.py</code> in <code>spiders</code> folder.</p>
 
-<pre><code class="language-python">  import scrapy
-  from ..items import MovieItem # import the item we defined
+<pre><code class="language-python">import scrapy
+from ..items import MovieItem # import the item we defined
 
-  class MovieSpider(scrapy.Spider):
-      # this is the name of the spider,
-      # it will be used when we want to start the cralwer
-      name = &quot;Movie&quot; 
-      start_urls = [
-          'https://www.themoviedb.org/movie',
-      ]
+class MovieSpider(scrapy.Spider):
+    # this is the name of the spider,
+    # it will be used when we want to start the cralwer
+    name = &quot;Movie&quot; 
+    start_urls = [
+        'https://www.themoviedb.org/movie',
+    ]
 
-      def parse(self, response):
-          # use css selector to locate the elements containing movie information
-          # populate the item with data we got
-          for movie in response.css('div.info'):
-              mItem = MovieItem()
-              mItem['_id'] = ('https://www.themoviedb.org' + 
-                  movie.css('p.flex a::attr(&quot;href&quot;)').extract_first())
-              mItem['movie'] = movie.css('p.flex a::text').extract_first()
-              mItem['rating'] = movie.css('span.vote_average::text').extract_first()
-              mItem['release_date'] = movie.css('span.release_date::text').extract_first()
-              mItem['genres'] = movie.css ('span.genres::text').extract_first()
-              mItem['overview'] = movie.css ('p.overview::text').extract_first()
-              yield mItem
+    def parse(self, response):
+        # use css selector to locate the elements containing movie information
+        # populate the item with data we got
+        for movie in response.css('div.info'):
+            mItem = MovieItem()
+            mItem['_id'] = ('https://www.themoviedb.org' + 
+                movie.css('p.flex a::attr(&quot;href&quot;)').extract_first())
+            mItem['movie'] = movie.css('p.flex a::text').extract_first()
+            mItem['rating'] = movie.css('span.vote_average::text').extract_first()
+            mItem['release_date'] = movie.css('span.release_date::text').extract_first()
+            mItem['genres'] = movie.css ('span.genres::text').extract_first()
+            mItem['overview'] = movie.css ('p.overview::text').extract_first()
+            yield mItem
           
-          # return the url of next page
-          next_page = response.css('p.right.pagination a::attr(&quot;href&quot;)').extract()
-          if len(next_page) &gt; 1:
-              next_page = next_page[1]
-          else:
-              next_page = next_page[0]
-          if next_page is not None:
-              yield response.follow(next_page, self.parse)
+        # return the url of next page
+        next_page = response.css('p.right.pagination a::attr(&quot;href&quot;)').extract()
+        if len(next_page) &gt; 1:
+            next_page = next_page[1]
+        else:
+            next_page = next_page[0]
+        if next_page is not None:
+            yield response.follow(next_page, self.parse)
 </code></pre>
 
-<p><strong>Pipeline</strong></p>
+<h4 id="5-3-pipeline">5.3 Pipeline</h4>
 
 <p>Pipeline is a powerful module. We can use it to do data cleansing, dedup, formating and calculating before saving the data. We create a item pipeline that directly save the item into MongoDB. Add below codes to <code>pipelines.py</code> file.</p>
 
-<pre><code class="language-python">  import pymongo
+<pre><code class="language-python">import pymongo
 
-  class MoviePipeline(object):
-      # action that will be taken when the crawler started
-      def open_spider(self, spider):
-          # connect to local mongodb on port 27018, default port is 27017
-          self.client = pymongo.MongoClient(&quot;mongodb://localhost:27018&quot;)
-          # connect to database test
-          self.test = self.client['test']
-          # connect to collection Movie
-          self.movie = self.test['Movie']
-      
-      def process_item(self, item, spider):
-          # insert the item to mongodb
-          self.movie.insert_one(item)
-          return item
+class MoviePipeline(object):
+    # action that will be taken when the crawler started
+    def open_spider(self, spider):
+        # connect to local mongodb on port 27018, default port is 27017
+        self.client = pymongo.MongoClient(&quot;mongodb://localhost:27018&quot;)
+        # connect to database test
+        self.test = self.client['test']
+        # connect to collection Movie
+        self.movie = self.test['Movie']
+    
+    def process_item(self, item, spider):
+        # insert the item to mongodb
+        self.movie.insert_one(item)
+        return item
 
-      def close_spider(self, spider):
-          pass
+    def close_spider(self, spider):
+        pass
 </code></pre>
 
 <p>Enable the item pipeline by adding below codes to <code>settings.py</code>.</p>
 
-<pre><code class="language-python">  ITEM_PIPELINES = {
-      'tutorial.pipelines.MoviePipeline': 300,
-  }
+<pre><code class="language-python">ITEM_PIPELINES = {
+    'tutorial.pipelines.MoviePipeline': 300,
+}
 </code></pre>
 
 <p>Start the crawler.</p>
 
 <p><code>scrapy crawl Movie</code></p>
 
-<p><strong>Finally!!</strong></p>
+<h4 id="5-4-result">5.4 Result</h4>
 
 <p>It took me less than 20 minutes to crawled 19633 movies, not bad.</p>
 
@@ -390,11 +389,11 @@
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/MOVIEDETAIL.PNG" alt="" /></p>
 
-<p>### 6. Using API ###</p>
+<h3 id="6-using-api">6. Using API</h3>
 
 <p>Many services, such as Google Map, OneDrive and Box, has provided official API for user to automatically some routine tasks. With API, we don&rsquo;t need to build the post or get request by ourself.</p>
 
-<p>#### Box API ####</p>
+<h4 id="6-1-box-api">6.1 Box API</h4>
 
 <p><a href="https://pypi.python.org/pypi/boxsdk/1.5.3#authorization">boxsdk</a> is the official Box Python SDK package. It also uses OAuth2 for authentication. You need to use below command to install it.</p>
 
@@ -414,88 +413,88 @@
 
 <p>Below is some demo codes for create a test folder, upload an image to the newly created folder and get its shared link.</p>
 
-<pre><code class="language-python">  import json
-  import requests
-  import webbrowser
+<pre><code class="language-python">import json
+import requests
+import webbrowser
 
-  from boxsdk import OAuth2
-  from boxsdk import Client
+from boxsdk import OAuth2
+from boxsdk import Client
 
-  # Configuration
-  clientId = '' # input your client id
-  clientSecret = '' # input your client pass
-  tokenUrl = 'https://api.box.com/oauth2/token'
-  authUrl = 'https://account.box.com/api/oauth2/authorize'
-  redirectUri = 'http://localhost'
-  state = '' # input your state
-  getCodeType = 'code'
-  getTokenType = 'authorization_code'
-  refreshTokenType = 'refresh_token'
+# Configuration
+clientId = '' # input your client id
+clientSecret = '' # input your client pass
+tokenUrl = 'https://api.box.com/oauth2/token'
+authUrl = 'https://account.box.com/api/oauth2/authorize'
+redirectUri = 'http://localhost'
+state = '' # input your state
+getCodeType = 'code'
+getTokenType = 'authorization_code'
+refreshTokenType = 'refresh_token'
 
 
-  # First leg authetication, get the code for getting access token
-  def get_code(url, type, id, redirect, state):
-      authUrl = (url + '?response_type='
-                  + type + '&amp;client_id=' + id + '&amp;state='
-                  + state + '&amp;redirect_uri=' + redirect)
-      webbrowser.open(authUrl, new=0)
+# First leg authetication, get the code for getting access token
+def get_code(url, type, id, redirect, state):
+    authUrl = (url + '?response_type='
+                + type + '&amp;client_id=' + id + '&amp;state='
+                + state + '&amp;redirect_uri=' + redirect)
+    webbrowser.open(authUrl, new=0)
+  
+    # Paste the code returned by box in browser address line after you grant access
+    authCode = input(&quot;Please enter the auth code got form browser: &quot;)
+    return authCode
 
-      # Paste the code returned by box in browser address line after you grant access
-      authCode = input(&quot;Please enter the auth code got form browser: &quot;)
-      return authCode
-
-  # Get access token
-  def get_access_refresh_token(url, type, code, id, secret, uri):
-      resp = requests.post(
-          url,
-          data={'grant_type': type,
-              'code': code,
-              'client_id': id,
-              'client_secret': secret,
-              'redirect_uri:': uri,
-          }
-      )
+# Get access token
+def get_access_refresh_token(url, type, code, id, secret, uri):
+    resp = requests.post(
+        url,
+        data={'grant_type': type,
+            'code': code,
+            'client_id': id,
+            'client_secret': secret,
+            'redirect_uri:': uri,
+        }
+    )
       
-      tokenData = json.loads(resp.text)
-      print(tokenData)
-      accessToken = tokenData['access_token']
-      refreshToken = tokenData['refresh_token']
-      return accessToken, refreshToken
+    tokenData = json.loads(resp.text)
+    print(tokenData)
+    accessToken = tokenData['access_token']
+    refreshToken = tokenData['refresh_token']
+    return accessToken, refreshToken
 
-  # Using refresh token to get new access token if necessary
+# Using refresh token to get new access token if necessary
 
-  def refresh_token(url, type, id, secret, refreshToken):
-      resp = requests.post(
-          url,
-          data={'grant_type': type,
-              'client_id': id,
-              'client_secret': secret,
-              'refresh_token': refreshToken}
-      )
-      tokenData = json.loads(resp.text)
-      accessToken = tokenData['access_token']
-      refreshToken = tokenData['fresh_token']
-      return accessToken, refreshToken
+def refresh_token(url, type, id, secret, refreshToken):
+    resp = requests.post(
+        url,
+        data={'grant_type': type,
+            'client_id': id,
+            'client_secret': secret,
+            'refresh_token': refreshToken}
+    )
+    tokenData = json.loads(resp.text)
+    accessToken = tokenData['access_token']
+    refreshToken = tokenData['fresh_token']
+    return accessToken, refreshToken
+
+
+if __name__ == '__main__':
+    authCode = get_code(authUrl, getCodeType, clientId, redirectUri, state)
+    accessToken, refreshToken = get_access_refresh_token(
+        tokenUrl, getTokenType, authCode, clientId, clientSecret, redirectUri
+    )
+    # print('access_token: ' + accessToken + '\nrefresh_token: ' + refreshToken)
       
-      
-  if __name__ == '__main__':
-      authCode = get_code(authUrl, getCodeType, clientId, redirectUri, state)
-      accessToken, refreshToken = get_access_refresh_token(
-          tokenUrl, getTokenType, authCode, clientId, clientSecret, redirectUri
-      )
-      # print('access_token: ' + accessToken + '\nrefresh_token: ' + refreshToken)
-      
-      oauth = OAuth2(
-          client_id=clientId,
-          client_secret=clientSecret,
-          access_token=accessToken,
-      )
-      client = Client(oauth)
-      root_folder = client.folder(folder_id='0')
-      shared_folder = root_folder.create_subfolder('api_test_folder')
-      uploaded_file = shared_folder.upload(r'C:\Users\daniel.xu\Desktop\tmp\IMG_0049.png')
-      shared_link = shared_folder.get_shared_link()
-      print(shared_link)
+    oauth = OAuth2(
+        client_id=clientId,
+        client_secret=clientSecret,
+        access_token=accessToken,
+    )
+    client = Client(oauth)
+    root_folder = client.folder(folder_id='0')
+    shared_folder = root_folder.create_subfolder('api_test_folder')
+    uploaded_file = shared_folder.upload(r'C:\Users\daniel.xu\Desktop\tmp\IMG_0049.png')
+    shared_link = shared_folder.get_shared_link()
+    print(shared_link)
 </code></pre>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/BOXAUTH.PNG" alt="" /></p>
@@ -506,64 +505,63 @@
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/BOXRESULT.PNG" alt="" /></p>
 
-<p>#### OneDrive API ####</p>
+<h4 id="6-2-onedrive-api">6.2 OneDrive API</h4>
 
 <p>[onedrivesdk][<a href="https://github.com/OneDrive/onedrive-sdk-python">https://github.com/OneDrive/onedrive-sdk-python</a>] is the python API for OneDrive. OneDrive API uses the standard OAuth 2.0 <em>authentication</em> scheme to authenticate users and generate access tokens. To use the API to login into your OneDrive account, you need to understand the <a href="https://dev.onedrive.com/auth/msa_oauth.htm">authentication mechanism</a>.</p>
 
 <p>Below script is using Code Flow for authentication and print out the basic account information after login.</p>
 
-<pre><code class="language-python">  import onedrivesdk
+<pre><code class="language-python">import onedrivesdk
 
-  redirect_uri = 'https://localhost:8080'
-  client_id = '' # fill in your client id
-  client_secret = '' # fill in your client id
-  api_base_url = 'https://api.onedrive.com/v1.0/'
-  scopes = ['wl.signin', 'wl.offline_access', 'onedrive.readwrite']
+redirect_uri = 'https://localhost:8080'
+client_id = '' # fill in your client id
+client_secret = '' # fill in your client id
+api_base_url = 'https://api.onedrive.com/v1.0/'
+scopes = ['wl.signin', 'wl.offline_access', 'onedrive.readwrite']
 
-  def auth_onedrive(client_id, scopes, api_base_url, redirect_uri):
-      http_provider = onedrivesdk.HttpProvider()
-      auth_provider = onedrivesdk.AuthProvider(
-          http_provider=http_provider,
-          client_id=client_id,
-          scopes=scopes)
+def auth_onedrive(client_id, scopes, api_base_url, redirect_uri):
+    http_provider = onedrivesdk.HttpProvider()
+    auth_provider = onedrivesdk.AuthProvider(
+        http_provider=http_provider,
+        client_id=client_id,
+        scopes=scopes)
 
-      client = onedrivesdk.OneDriveClient(api_base_url, auth_provider,
-          http_provider)
-      auth_url = client.auth_provider.get_auth_url(redirect_uri)
-      # Ask for the code
-      print('Paste this URL into your browser, approve the app\'s access.')
-      print(
-          'Copy everything in the address bar after &quot;code=&quot;, and'
-          ' paste it below.')
-      print(auth_url)
-      with open('authurl.txt', 'w') as authurl:
-          authurl.write(auth_url)
-      code = input('Paste code here: ')
+    client = onedrivesdk.OneDriveClient(api_base_url, auth_provider,
+        http_provider)
+    auth_url = client.auth_provider.get_auth_url(redirect_uri)
+    # Ask for the code
+    print('Paste this URL into your browser, approve the app\'s access.')
+    print(
+        'Copy everything in the address bar after &quot;code=&quot;, and'
+        ' paste it below.')
+    print(auth_url)
+    with open('authurl.txt', 'w') as authurl:
+        authurl.write(auth_url)
+    code = input('Paste code here: ')
 
-      client.auth_provider.authenticate(code, redirect_uri, client_secret)
-      
-      return client
+    client.auth_provider.authenticate(code, redirect_uri, client_secret)      
+    return client
     
-  def upload_onedrive(client, upload_path, upload_file):
-      returned_item = client.item(drive='me', id='root')
-      returned_item = returned_item.children[upload_file]
-      upload_item = returned_item.upload(os.path.join(upload_path, upload_file))
+def upload_onedrive(client, upload_path, upload_file):
+    returned_item = client.item(drive='me', id='root')
+    returned_item = returned_item.children[upload_file]
+    upload_item = returned_item.upload(os.path.join(upload_path, upload_file))
       
-  client = auth_onedrive(client_id, scopes, api_base_url, redirect_uri)
-  #get the top three elements of root, leaving the next page for more elements
-  collection = client.item(drive='me', id='root').children.request(top=3).get()
+client = auth_onedrive(client_id, scopes, api_base_url, redirect_uri)
+#get the top three elements of root, leaving the next page for more elements
+collection = client.item(drive='me', 	id='root').children.request(top=3).get()
 
-  for item in collection:
-      print(item.__dict__)
+for item in collection:
+    print(item.__dict__)
 
-  # upload_onedrive(client, base_folder, archive_folder + '.zip')
+# upload_onedrive(client, base_folder, archive_folder + '.zip')
 </code></pre>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/ONEDRIVEAUTH.PNG" alt="" /></p>
 
 <p><img src="https://raw.githubusercontent.com/xuzhe0628/python-spider-scraper-fundamentals/master/Images/ONEDRIVEAPI.PNG" alt="" /></p>
 
-<p>### Summary ###</p>
+<h3 id="summary">Summary</h3>
 
 <p>This sharing only covers basic and some intermediate topics for web crawler and scraper. It is not hard to write a &ldquo;toy&rdquo; crawler, but many modern websites have very complex anti-crawling mechanisms that makes its&rsquo;s very challenging to crawl data from them. Moreover, some crawling tasks are challenging because of the data volume, data quality or efficiency.</p>
 
