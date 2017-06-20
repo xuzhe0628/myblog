@@ -33,26 +33,6 @@ A crawler get web pages from a starting page based one some rules or conditions.
     </item>
     
     <item>
-      <title>Math for Data Science</title>
-      <link>http://xuzhe91.com/post/math-for-data-science/</link>
-      <pubDate>Fri, 02 Jun 2017 13:36:35 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/post/math-for-data-science/</guid>
-      <description>Math for Data Science Review This article is based on Coursera course Math for Data Science provided by Duke University. To better understanding the algorithms in data mining, machine learning and deep learning, I write this summary to go through the basic math that will be used.
-Sets A set means a collection of some elements. For example, a basket of vegetables.
-** Cardinality ** is the size of a set.</description>
-    </item>
-    
-    <item>
-      <title>Curse of Dimensionality</title>
-      <link>http://xuzhe91.com/post/machine-learning-curse-of-dimensionality/</link>
-      <pubDate>Sun, 28 May 2017 20:30:40 +0800</pubDate>
-      
-      <guid>http://xuzhe91.com/post/machine-learning-curse-of-dimensionality/</guid>
-      <description>Curse of Dimensionality As the number of features or dimensions grows, the amount of data we need to generalize accurately grows exponentially.</description>
-    </item>
-    
-    <item>
       <title>Causes of Error in Machine Learning</title>
       <link>http://xuzhe91.com/post/machine-learning-errors/</link>
       <pubDate>Sun, 28 May 2017 20:04:58 +0800</pubDate>
