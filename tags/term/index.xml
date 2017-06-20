@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Term on Xu Zhe&#39;s Blog</title>
+    <link>http://xuzhe91.com/tags/term/</link>
+    <description>Recent content in Term on Xu Zhe&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 20 Jun 2017 20:13:34 +0800</lastBuildDate>
+    
+	<atom:link href="http://xuzhe91.com/tags/term/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Natural Language Processing Terms</title>
+      <link>http://xuzhe91.com/post/nlp-terms/</link>
+      <pubDate>Tue, 20 Jun 2017 20:13:34 +0800</pubDate>
+      
+      <guid>http://xuzhe91.com/post/nlp-terms/</guid>
+      <description>Natural Language Processing with Python is a great entry level book for NLP. I record all basic concepts occurred in this book for reviewing. All codes are written in Python 3. I will keep updating it.
+Token A token is the technical name for a sequence of characters, such as hairy, his or :), that we want to treat as a group. A word token is a particular appearance of a given word in a text.</description>
+    </item>
+    
+  </channel>
+</rss>

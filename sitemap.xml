@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xuzhe91.com/post/nlp-terms/</loc>
+    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xuzhe91.com/post/python-spider/</loc>
     <lastmod>2017-06-19T00:40:23+08:00</lastmod>
   </url>
@@ -125,7 +130,7 @@
   
   <url>
     <loc>http://xuzhe91.com/tags/english/</loc>
-    <lastmod>2017-06-19T00:40:23+08:00</lastmod>
+    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -154,6 +159,18 @@
   </url>
   
   <url>
+    <loc>http://xuzhe91.com/tags/nlp/</loc>
+    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://xuzhe91.com/categories/nlp/</loc>
+    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://xuzhe91.com/tags/performance-evaluation/</loc>
     <lastmod>2017-05-26T00:00:05+08:00</lastmod>
     <priority>0</priority>
@@ -161,7 +178,7 @@
   
   <url>
     <loc>http://xuzhe91.com/post/</loc>
-    <lastmod>2017-06-19T00:40:23+08:00</lastmod>
+    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -220,8 +237,14 @@
   </url>
   
   <url>
+    <loc>http://xuzhe91.com/tags/term/</loc>
+    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://xuzhe91.com/</loc>
-    <lastmod>2017-06-19T00:40:23+08:00</lastmod>
+    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
     <priority>0</priority>
   </url>
   
