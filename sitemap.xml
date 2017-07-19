@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xuzhe91.com/post/2017-learn/</loc>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://xuzhe91.com/post/nlp-terms/</loc>
     <lastmod>2017-06-20T20:13:34+08:00</lastmod>
   </url>
@@ -29,11 +34,6 @@
   <url>
     <loc>http://xuzhe91.com/post/statistic-fundamentals/</loc>
     <lastmod>2017-05-25T21:17:09+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://xuzhe91.com/post/2017-learn/</loc>
-    <lastmod>2017-05-17T16:53:50+08:00</lastmod>
   </url>
   
   <url>
@@ -66,19 +66,19 @@
   
   <url>
     <loc>http://xuzhe91.com/tags/chinese/</loc>
-    <lastmod>2017-05-17T16:53:50+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://xuzhe91.com/tags/coding/</loc>
-    <lastmod>2017-05-17T16:53:50+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://xuzhe91.com/categories/coding/</loc>
-    <lastmod>2017-05-17T16:53:50+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,13 +96,13 @@
   
   <url>
     <loc>http://xuzhe91.com/categories/data/</loc>
-    <lastmod>2017-05-17T16:53:50+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://xuzhe91.com/tags/data-science/</loc>
-    <lastmod>2017-05-26T00:00:05+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,7 +126,7 @@
   
   <url>
     <loc>http://xuzhe91.com/tags/machine-learning/</loc>
-    <lastmod>2017-05-28T20:04:58+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -156,7 +156,7 @@
   
   <url>
     <loc>http://xuzhe91.com/post/</loc>
-    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -222,7 +222,7 @@
   
   <url>
     <loc>http://xuzhe91.com/</loc>
-    <lastmod>2017-06-20T20:13:34+08:00</lastmod>
+    <lastmod>2017-07-19T19:35:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
